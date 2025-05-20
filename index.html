@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile-image-container">
+            <img src="abcd.jpg" alt="Suraj Aglave" class="profile-image">
+        </div>
+        <h1>Welcome to My Digital Portfolio</h1>
+        <p>Hi! I'm Aglave Suraj Rajendra, an aspiring full-stack developer.</p>
+        <nav class="main-nav">
+            <button onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">About</button>
+            <button onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">Projects</button>
+            <button onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'})">Skills</button>
+            <button onclick="document.getElementById('education').scrollIntoView({behavior: 'smooth'})">Education</button>
+            <button onclick="document.getElementById('certifications').scrollIntoView({behavior: 'smooth'})">Certifications</button>
+            <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact</button>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Aglave Suraj Rajendra, a first-year student passionate about web development and programming.<br>I have foundational knowledge in C, Python, HTML, and CSS, and I’m eager to build my skills further.I enjoy learning new technologies and love creating simple yet functional web applications.Focused on building responsive, accessible, and user-friendly projects, I aim to continuously improve and expand my skill set as I progress in my studies.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Event Management System</strong><br>
+                A platform to streamline event planning, registration, and scheduling.<br>
+                It helps organizers and attendees manage events efficiently with real-time updates.
+            </li>
+            <li>
+                <strong>Portfolio Builder</strong><br>
+                A tool for creating personalized and professional portfolios without coding.<br>
+                Users can showcase their skills, projects, and achievements with ease.
+            </li>
+            <li>
+                <strong>SmartScholars</strong><br>
+                An academic assistant system designed to help students stay organized.<br>
+                It manages tasks, notes, and study materials for a more productive learning journey.
+            </li>
+        </ul>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>💻 Web Development - Building modern, responsive web applications</li>
+            <li>🤖 AI/ML - Exploring machine learning applications</li>
+            <li>🎨 UI/UX Design - Creating intuitive user experiences</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>MIT Academy of Engineering</h3>
+                    <p>Bachelor of Technology in Computer Science</p>
+                    <p>2024 - Present | CGPA: 8.1</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Higher Secondary (12th Grade)</h3>
+                    <p>Science Stream (PCM)</p>
+                    <p>2022 - 2024 | Percentile: 95% in MHT-CET</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>10th Grade</h3>
+                    <p>2021 - 2022 | Percentage: 93.60%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-graph">
+            <div class="skill" style="--skill-level: 90%;" data-skill="HTML/CSS">
+                <span class="skill-name">HTML/CSS</span>
+                <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill" style="--skill-level: 80%;" data-skill="C & C++">
+                <span class="skill-name">C & C++</span>
+                <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill" style="--skill-level: 85%;" data-skill="Python">
+                <span class="skill-name">Python</span>
+                <span class="skill-percent">85%</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certificate-image">
+            <img src="EDS_certificate_2.jpg" alt="EDS Certification">
+            <img src="linux_certification.png" alt="Linux Certification">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:202401040060@mitaoe.ac.in">202401040060@mitaoe.ac.in</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/suraj-aglave">linkedin.com/in/suraj-aglave</a></p>
+        <p>Phone: +91 9373760390</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Aglave Suraj Rajendra. All rights reserved.</p>
+    </footer>
+</body>
+</html>
